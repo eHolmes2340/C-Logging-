@@ -1,4 +1,4 @@
-# LogLib
+# Log.lib
 
 Log lib is a lightweight C++ logging library that supports console output with colored messages and optional log-to-file support. 
 
