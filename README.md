@@ -26,7 +26,6 @@ Include Header file
 
 ```cpp
 
-
 Log::WantsLogFile(true);
 Log::SetFileName("GameLog.log");
 Log::SetLogLevel(Log::LogLevelInfo);
@@ -35,6 +34,10 @@ Log::Warning("Low memory");
 Log::Error("Failed to load file");
 Log::Debug("Debug Message);
 
-
 ```
+
+## Using the lib.
+- Create a directory called "Log".
+- Grab the Log.h from the include directory.
+- Build the lib in release mode and place the Log.lib into a "Lib" directory. 
 
